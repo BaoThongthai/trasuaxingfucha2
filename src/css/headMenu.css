@@ -1,0 +1,117 @@
+/*==Reset CSS==*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*==Style cho menu===*/
+#menu ul {
+    background: rgba(255, 255, 255, 0.757);
+    list-style-type: none;
+    text-align: center;
+
+}
+
+#menu li {
+    color: #ff0000;
+    display: inline-block;
+    width: 220px;
+    height: auto;
+    line-height: 40px;
+    margin-left: -10px;
+    position: relative;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #ff0000;
+    display: block;
+}
+
+#menu a:hover {
+    text-decoration: none;
+    background: #f1f7ff;
+    color: #000000;
+}
+
+/* Style the sub-menu */
+#menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f7eeee;
+    z-index: 5;
+}
+
+#menu ul li:hover ul {
+    display: block;
+}
+
+#menu ul ul li {
+    width: 180px;
+}
+
+/*# sourceMappingURL=menu.css.map */
+
+/* LOGO */
+.logo {
+    width: 80px;
+    /* Điều chỉnh kích thước logo theo nhu cầu của bạn */
+    height: auto;
+    /* Giữ tỷ lệ khung hình ảnh */
+    margin: -40px;
+    /* Điều chỉnh khoảng cách từ logo đến các phần khác trên thanh menu */
+    margin-top: -15px;
+    margin-left: 20px;
+    float: left;
+    /* Đặt logo ở bên trái */
+}#menu {
+    background-color: #333; /* Màu nền của menu */
+    color: #d6a9a9; /* Màu chữ trên menu */
+    padding: 10px; /* Khoảng cách giữa nội dung và viền */
+    position: fixed; /* Để menu nằm trên cùng */
+    top: 0; /* Cố định menu ở phía trên cùng */
+    width: 100%; /* Chiều rộng 100% của trang */
+    z-index: 5; /* Độ sâu z-index để đảm bảo menu nằm trên các phần khác */
+  }
+  
+  #menu ul {
+    list-style: none; /* Ẩn dấu chấm của danh sách */
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    display: flex; /* Hiển thị các mục menu theo hàng ngang */
+    justify-content: center; /* Căn giữa các mục menu */
+  }
+  
+  #menu li {
+    margin: 0 10px; /* Khoảng cách giữa các mục menu */
+  }
+  
+  #menu a {
+    text-decoration: none; /* Loại bỏ gạch chân mặc định của liên kết */
+    color: #ff0000; /* Màu chữ của liên kết */
+  }
+  
+  /* Định dạng hover (nếu muốn) */
+  #menu a:hover {
+    text-decoration: none; /* Gạch chân liên kết khi hover */
+  }
+  
+
+
+/* code ghim menu khi scroll trang */
+#menu {
+    position: fixed;
+    top: 0;
+    /*Ẩn thanh menu khi không được cuộn*/
+    transition: top 0s;
+    /* Thời gian hiệu ứng xuất hiện */
+    width: 100%;
+    background-color: #ffffff;
+    /* Màu nền của thanh menu */
+    z-index: 2;
+    /* Để đảm bảo nằm trên cùng */
+}
