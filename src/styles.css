@@ -62,3 +62,7 @@ h5{
     max-width: 200px; /* Điều chỉnh kích thước tối đa cho tiêu đề */
 }
 
+h1{
+text-align: center;
+color: red;}
+

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Button, Modal, Form } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 function AddProduct() {
   const [showModal, setShowModal] = useState(false);
   const [formData, setFormData] = useState({
@@ -42,6 +43,7 @@ function AddProduct() {
       .then((data) => {
         console.log('Dữ liệu đã được cập nhật thành công:', data);
         handleCloseModal();
+        
       })
       .catch((error) => {
         console.error('Lỗi khi cập nhật dữ liệu:', error);

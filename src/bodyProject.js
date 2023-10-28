@@ -9,15 +9,15 @@ function BodyProject() {
         <img src={logo} alt="Logo" className="logo" />
       </a>
       <ul>
-        <li><a href="#">Trang chủ</a></li>
+        <li><a href="http://127.0.0.1:5500/showProduct.html">Trang chủ</a></li>
         <li><a href="#gioiThieu">Giới thiệu</a></li>
         <li><a href="http://127.0.0.1:5500/showProduct.html">Danh sách sản phẩm</a></li>
         <li>
           <a href="#tintucvasukien">Tin tức và sự kiện</a>
           <ul>
-            <li><a href="#">Ngày Hội Trăng Rằm</a></li>
-            <li><a href="#">Đi chơi được quà</a></li>
-            <li><a href="#">Lương về thả ga</a></li>
+            <li><a href="http://127.0.0.1:5500/showProduct.html">Ngày Hội Trăng Rằm</a></li>
+            <li><a href="http://127.0.0.1:5500/showProduct.html">Đi chơi được quà</a></li>
+            <li><a href="http://127.0.0.1:5500/showProduct.html">Lương về thả ga</a></li>
           </ul>
         </li>
         <li><a href="#nhuongquyen">Nhượng quyền</a></li>
